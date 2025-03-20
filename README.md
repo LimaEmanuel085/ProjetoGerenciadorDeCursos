@@ -9,22 +9,22 @@ A API visa criar tanto usuarios como cursos, além de fazer a realização de um
 
 # EndPoints:
 # User EndPoints: 
-**Rota:** GET '/'
-**Descrição:** Visualiza os usuários cadastrados no banco de dados
-**Exemplo de resposta:**
-    JSON
-    [{
-    "id": "67d8ee7cb7e4a18b5b5b2j13",
-     "name": "userTeste",
-    "email": "teste@gmail.com",
-    "password": "12345678"  
-    },
-    {
-    "id": "67db142e034d3b4430fe22da",
-    "name": "José",
-    "email": "emailTeste@gmail.com",
-    "password": "12345678"
-    }]
+    **Rota:** GET '/'
+    **Descrição:** Visualiza os usuários cadastrados no banco de dados
+    **Exemplo de resposta:**
+        JSON
+        [{
+        "id": "67d8ee7cb7e4a18b5b5b2j13",
+         "name": "userTeste",
+        "email": "teste@gmail.com",
+        "password": "12345678"  
+        },
+        {
+        "id": "67db142e034d3b4430fe22da",
+        "name": "José",
+        "email": "emailTeste@gmail.com",
+        "password": "12345678"
+        }]
 
 **Rota:** POST '/'
 **Descrição:** Cria e adiciona um novo usuário no banco de dados
