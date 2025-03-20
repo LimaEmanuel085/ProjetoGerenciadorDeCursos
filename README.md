@@ -9,9 +9,9 @@ A API visa criar tanto usuarios como cursos, além de fazer a realização de um
 
 # EndPoints:
 # User EndPoints: 
-    **Rota:** GET '/'
-    **Descrição:** Visualiza os usuários cadastrados no banco de dados
-    **Exemplo de resposta:**
+**Rota:** GET '/' <br>
+**Descrição:** Visualiza os usuários cadastrados no banco de dados <br>
+**Exemplo de resposta:** <br>
         JSON
         [{
         "id": "67d8ee7cb7e4a18b5b5b2j13",
